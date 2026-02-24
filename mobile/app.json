@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Medicine Companion",
+    "slug": "mte-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "mte",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.mte.medicinecompanion",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Medicine Companion needs microphone access for voice input."
+      },
+      "bundleIdentifier": "com.mte.medicinecompanion"
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
+  }
+}
